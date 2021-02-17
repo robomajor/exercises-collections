@@ -44,5 +44,7 @@ public class Main {
         palindromeFinder.isThisWordPalindrome("kak kak");
         palindromeFinder.isThisWordPalindrome("Zebra");
 
+        System.out.println();
+
     }
 }
