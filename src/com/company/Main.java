@@ -36,5 +36,13 @@ public class Main {
         collectionReverser.reverseCollection(array2);
         collectionReverser.reverseCollection(array3);
 
+        System.out.println();
+
+        PalindromeFinder palindromeFinder = new PalindromeFinder();
+
+        palindromeFinder.isThisWordPalindrome("KaJak");
+        palindromeFinder.isThisWordPalindrome("kak kak");
+        palindromeFinder.isThisWordPalindrome("Zebra");
+
     }
 }
